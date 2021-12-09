@@ -13,6 +13,7 @@ type Data = {
   site: {
     siteMetadata: {
       title: string
+      subtitle: string
     }
   }
   allMarkdownRemark: {
@@ -21,6 +22,7 @@ type Data = {
         excerpt: string
         frontmatter: {
           title: string
+          subtitle: string
           date: string
           description: string
         }
@@ -113,6 +115,7 @@ export const pageQuery = graphql`
     site {
       siteMetadata {
         title
+        subtitle
       }
     }
     allMarkdownRemark(
