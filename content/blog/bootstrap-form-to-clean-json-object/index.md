@@ -1,5 +1,5 @@
 ---
-title: [Web Dev] Bootstrap Wizard that produces a clean JSON Object
+title: "[Web Dev] Bootstrap Wizard that produces a clean JSON Object"
 date: "2021-12-09T03:10:00.000Z"
 description: "A simple HTML-CSS-JS Wizard that guides the user through a multi-tab form and ends in a clean JSON object. Server-side ready."
 categories: [webdev]
