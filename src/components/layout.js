@@ -1,5 +1,5 @@
 import React from "react"
-import { Link } from "gatsby"
+import { Link, useStaticQuery, graphql } from "gatsby"
 import { ThemeToggler } from "gatsby-plugin-dark-mode"
 import { scale } from "../utils/typography"
 
@@ -7,7 +7,30 @@ import Footer from "./footer"
 import "./global.css"
 
 const Layout = ({ location, title, children }) => {
-  const { description } = siteMetadata
+  const data = useStaticQuery(graphql`
+    query BioQuery {
+      avatar: file(absolutePath: { regex: "/profile-pic.jpg/" }) {
+        childImageSharp {
+          fixed(width: 50, height: 50) {
+            ...GatsbyImageSharpFixed
+          }
+        }
+      }
+      site {
+        siteMetadata {
+          author {
+            name
+            summary
+          }
+          social {
+            github
+          }
+        }
+      }
+    }
+  `)
+
+  const { description } = data.site.siteMetadata
   const toggle = (
     <ThemeToggler>
       {({ toggleTheme, theme }) => {
