@@ -6,7 +6,7 @@ import { scale } from "../utils/typography"
 import Footer from "./footer"
 import "./global.css"
 
-const Layout = ({ location, title, subtitle, children }) => {
+const Layout = ({ location, title, children }) => {
   const toggle = (
     <ThemeToggler>
       {({ toggleTheme, theme }) => {
