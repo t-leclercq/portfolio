@@ -1,7 +1,8 @@
 module.exports = {
   pathPrefix: "/leonids",
   siteMetadata: {
-    title: `Leonids`,
+    title: `Thomas 'z4nzi' Leclercq`,
+    subtitle: `Portfolio, web showcase and cybersecurity progress log`,
     author: {
       name: `@ry_zou`,
       summary: `web dev`,
