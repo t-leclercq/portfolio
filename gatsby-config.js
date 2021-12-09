@@ -3,13 +3,13 @@ module.exports = {
   siteMetadata: {
     title: `Thomas 'z4nzi' Leclercq`,
     author: {
-      name: `@ry_zou`,
+      name: `@t-leclercq`,
       summary: `web dev`,
     },
     description: `Portfolio, web showcase and cybersecurity progress log`,
     siteUrl: `https://renyuanz.github.io/leonids`,
     social: {
-      twitter: `ry_zou`,
+      github: `t-leclercq`,
     },
     defaultImage: "images/bg.jpeg",
   },

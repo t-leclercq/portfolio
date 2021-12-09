@@ -6,6 +6,8 @@ import { scale } from "../utils/typography"
 import Footer from "./footer"
 import "./global.css"
 
+const { description } = data.site.siteMetadata
+
 const Layout = ({ location, title, description, children }) => {
   const toggle = (
     <ThemeToggler>
