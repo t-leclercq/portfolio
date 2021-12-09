@@ -62,3 +62,10 @@ HTML and CSS are our tools. Mauris a ante. Suspendisse quam sem, consequat at, c
 - Item one
 - Item two
 - Item three
+
+<p class="codepen" data-height="686" data-theme-id="light" data-default-tab="result" data-slug-hash="abLZZEj" data-user="hotlinedelite" style="height: 686px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+  <span>See the Pen <a href="https://codepen.io/hotlinedelite/pen/abLZZEj">
+  JSON Wizard</a> by tleclercq (<a href="https://codepen.io/hotlinedelite">@hotlinedelite</a>)
+  on <a href="https://codepen.io">CodePen</a>.</span>
+</p>
+<script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
