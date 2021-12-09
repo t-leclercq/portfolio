@@ -7,7 +7,7 @@ import Footer from "./footer"
 import "./global.css"
 
 const Layout = ({ location, title, children }) => {
-  const { description } = site.siteMetadata
+  const { description } = siteMetadata
   const toggle = (
     <ThemeToggler>
       {({ toggleTheme, theme }) => {
