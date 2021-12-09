@@ -56,7 +56,6 @@ const Layout = ({ location, title, children }) => {
     </ThemeToggler>
   )
 
-  const metaDescription = description || site.siteMetadata.description
   const header = (
     <>
       {toggle}
@@ -79,7 +78,7 @@ const Layout = ({ location, title, children }) => {
         </Link>
       </h2>
       <span>
-        {metaDescription}
+        {description}
       </span>
     </>
   )
