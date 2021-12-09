@@ -25,6 +25,7 @@ const Layout = ({ location, title, children }) => {
           social {
             github
           }
+          description
         }
       }
     }
