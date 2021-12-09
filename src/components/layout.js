@@ -6,7 +6,7 @@ import { scale } from "../utils/typography"
 import Footer from "./footer"
 import "./global.css"
 
-const Layout = ({ location, title, subtitle, children }) => {
+const Layout = ({ location, title, description, children }) => {
   const toggle = (
     <ThemeToggler>
       {({ toggleTheme, theme }) => {
@@ -61,7 +61,7 @@ const Layout = ({ location, title, subtitle, children }) => {
       {toggle}
       <h2
         style={{
-          ...scale(1),
+          ...scale(0.5),
           marginBottom: 0,
           marginTop: 0,
           fontFamily: `Montserrat, sans-serif`,
@@ -78,7 +78,7 @@ const Layout = ({ location, title, subtitle, children }) => {
         </Link>
       </h2>
       <span>
-        {subtitle}
+        {description}
       </span>
     </>
   )
