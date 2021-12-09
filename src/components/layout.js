@@ -6,9 +6,7 @@ import { scale } from "../utils/typography"
 import Footer from "./footer"
 import "./global.css"
 
-const { description } = data.site.siteMetadata
-
-const Layout = ({ location, title, description, children }) => {
+const Layout = ({ location, title, children }) => {
   const toggle = (
     <ThemeToggler>
       {({ toggleTheme, theme }) => {
@@ -58,6 +56,7 @@ const Layout = ({ location, title, description, children }) => {
     </ThemeToggler>
   )
 
+  const metaDescription = description || site.siteMetadata.description
   const header = (
     <>
       {toggle}
@@ -80,7 +79,7 @@ const Layout = ({ location, title, description, children }) => {
         </Link>
       </h2>
       <span>
-        {description}
+        {metaDescription}
       </span>
     </>
   )
