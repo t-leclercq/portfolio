@@ -28,18 +28,6 @@ const Layout = ({ location, title, children }) => {
           description
         }
       }
-      allMarkdownRemark() {
-        edges {
-          node {
-            fields {
-              slug
-            }
-            frontmatter {
-              categories
-            }
-          }
-        }
-      }
     }
   `)
 
@@ -117,9 +105,6 @@ const Layout = ({ location, title, children }) => {
       </h2>
       <span>
         {description}
-      </span>
-      <span>
-        {posts.categories}
       </span>
     </>
   )
