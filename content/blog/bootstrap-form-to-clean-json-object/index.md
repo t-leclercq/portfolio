@@ -9,6 +9,8 @@ image:
   credit: kouceylahadji
 ---
 
+![Smithsonian Image](https://images.unsplash.com/photo-1610986602538-431d65df4385?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1207&q=80)
+
 ## What's the use ?
 
 Willing to separate most efficiently the server-side logic from the client-side, i wanted to showcase a simple bootstrap 5 based wizard.
@@ -22,9 +24,6 @@ Willing to separate most efficiently the server-side logic from the client-side,
 ### The workflow
 
 Using a nav-tab container [based on bootstrap documentation](https://getbootstrap.com/docs/5.1/components/navs-tabs/#javascript-behavior), i splitted a basic form in order to lighten the text seen by the user. This helps categorizing the information gathered and, also, this becomes a wizard this way.
-
-![Smithsonian Image](https://images.unsplash.com/photo-1440635592348-167b1b30296f?crop=entropy&dpr=2&fit=crop&fm=jpg&h=475&ixjsv=2.1.0&ixlib=rb-0.3.5&q=50&w=1250)
-_i will update this with a real illustration_
 
 At the end, the form isn't submitted like a standard HTML form.
 1. A new submit function called `dataToJSON()` is triggered
