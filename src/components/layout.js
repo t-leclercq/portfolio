@@ -32,7 +32,6 @@ const Layout = ({ location, title, children }) => {
   `)
 
   const { description } = data.site.siteMetadata
-  const { posts } = data.allMarkdownRemark
   const toggle = (
     <ThemeToggler>
       {({ toggleTheme, theme }) => {
