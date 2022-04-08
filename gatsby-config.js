@@ -4,7 +4,7 @@ module.exports = {
     title: `Thomas 'z4nzi' Leclercq`,
     author: {
       name: `@t-leclercq`,
-      summary: `web dev`,
+      summary: `C# .NET, PHP, HTML5, CSS (Scss), JS (Vanilla, NodeJS) Web dev`,
     },
     description: `Portfolio, web showcase and cybersecurity progress log`,
     siteUrl: `https://renyuanz.github.io/leonids`,
