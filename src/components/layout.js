@@ -28,10 +28,23 @@ const Layout = ({ location, title, children }) => {
           description
         }
       }
+      allMarkdownRemark() {
+        edges {
+          node {
+            fields {
+              slug
+            }
+            frontmatter {
+              categories
+            }
+          }
+        }
+      }
     }
   `)
 
   const { description } = data.site.siteMetadata
+  const { posts } = data.allMarkdownRemark
   const toggle = (
     <ThemeToggler>
       {({ toggleTheme, theme }) => {
@@ -104,6 +117,9 @@ const Layout = ({ location, title, children }) => {
       </h2>
       <span>
         {description}
+      </span>
+      <span>
+        {posts.categories}
       </span>
     </>
   )
