@@ -1,45 +1,19 @@
-# Leonids Gatsby starter
+# What's that, exactly
+
+**https://tleclercq.vercel.app/**
+
+This showcases the work i'm doing on my own, on my spare time.
+This is intended for my mates, coworkers and anybody seeking to exchange about technical stuff.
+
+## Fields i'm into
+
+- Reverse engineering (C, C++, Rust, Go, x86 assembly)
+- Web dev (easy to use data to layout components and cool UI tricks)
+- Malware research (while being a newbie, i'm reading a lot on this particular field to educate myself)
+- Networking (not taking about afterworks here... OSI Layer stuff only)
+- CTFs (expect some writeups here in the near future)
+- Automation, DevOps and other experiments
+
+### Leonids Gatsby is the theme i used
 
 **[Leonids](http://renyuanz.github.io/leonids)** is a clean, fixed sidebar Gatsby starter which is perfect for powering your GitHub hosted blog.
-
-### Preview
-
-![theme-preview](./content/assets/theme-preview.gif)
-
-## What is Leonids?
-
-A blazing fast static blog theme built on Gatsby.js
-
-![lighthouse-performance](./content/assets/lighthouse-performance.png)
-
-- Responsive templates. Looking good on any viewport.
-- Fixed sidebar to provide a good navigation experience while reading.
-- Light/Dark mode.
-- **And** the Leonids (/ˈliːənɪdz/ lee-ə-nidz) are a prolific meteor shower associated with the comet [Tempel-Tuttle](https://en.wikipedia.org/wiki/55P/Tempel%E2%80%93Tuttle).
-
-See a [demo](http://renyuanz.github.io/leonids/) hosted on GitHub pages.
-
-## Getting Started (Recommended)
-
-### Vercel.com deploy button
-
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https%3A%2F%2Fgithub.com%2Frenyuanz%2Fleonids)
-
-### Netlify CMS deploy button
-
-<a href="https://app.netlify.com/start/deploy?repository=https://github.com/renyuanz/leonids&amp;stack=cms"><img src="https://www.netlify.com/img/deploy/button.svg" alt="Deploy to Netlify"></a>
-
-## Local development setup
-
-```
-gatsby new my-blog https://github.com/renyuanz/leonids
-cd my-blog
-gatsby develop
-```
-
-Check out your awesome blog at `http://localhost:8000` and Cheers!
-
-
-## Legacy Jekyll theme
-
-This project was a Jekyll blog theme, which is archived and not maintained any more. You can still find the source code in [leonids-jekyll](https://github.com/renyuanz/leonids/tree/leonids-jekyll) branch.
