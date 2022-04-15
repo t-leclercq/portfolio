@@ -1,6 +1,6 @@
 ---
 title: "[Reverse Engineering] Starting my journey into RE"
-date: "2021-12-09T03:10:00.000Z"
+date: "2022-02-01T00:10:00.000Z"
 description: "From basic web oriented CTF to RE challenges..."
 categories: [reverse engineering]
 comments: true
