@@ -9,8 +9,6 @@ image:
   credit: z4nzi
 ---
 
-![fifth one... yet ?](https://raw.githubusercontent.com/t-leclercq/portfolio/main/content/assets/5.png
-
 ### Déjà-vu ?
 
 Crackme0x05 is crackme0x04 with 2 variations :

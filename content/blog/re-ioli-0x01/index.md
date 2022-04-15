@@ -9,8 +9,6 @@ image:
   credit: z4nzi
 ---
 
-![Second one...](https://raw.githubusercontent.com/t-leclercq/portfolio/main/content/assets/1.png)
-
 ### A bit of recon...
 
 1. This can't be as easy as the 0x00... but why not testing again a good ol' `strings` :

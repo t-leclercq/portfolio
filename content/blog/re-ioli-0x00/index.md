@@ -9,8 +9,6 @@ image:
   credit: z4nzi
 ---
 
-![First challenge, let's go](https://raw.githubusercontent.com/t-leclercq/portfolio/main/content/assets/0.png)
-
 ### A bit of recon...
 1. First of all, seeing that IOLI 0x00 is the starting point of a learning series of linux binaries, i use the `file` command to check whether i can or cannot execute it *as is*. 
 

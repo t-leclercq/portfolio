@@ -9,8 +9,6 @@ image:
   credit: z4nzi
 ---
 
-![Third one...](https://raw.githubusercontent.com/t-leclercq/portfolio/main/content/assets/3.png)
-
 ### The same old song...
 
 Crackme0x03 is the same as crackme0x02 but instead of comparing the results inside of the `main` function, the results are passed inside an other function named `test` and the comparison inscrution is executed inside this *test* function.

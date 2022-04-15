@@ -9,8 +9,6 @@ image:
   credit: z4nzi
 ---
 
-![Second one...](https://raw.githubusercontent.com/t-leclercq/portfolio/main/content/assets/2.png)
-
 ### Started from the main (now we here)
 
 After and `aaa` analyze, and `afl` to print all functions... nothing new, there's only a main function and basic print functions.

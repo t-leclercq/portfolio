@@ -9,8 +9,6 @@ image:
   credit: z4nzi
 ---
 
-![fourth one...](https://raw.githubusercontent.com/t-leclercq/portfolio/main/content/assets/4.png
-
 ### Let's dive in a bit quicker
 
 Crackme0x04 is following the steps of it's predecessor, nothing new : ioli's a progression.
