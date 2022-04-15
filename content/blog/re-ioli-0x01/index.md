@@ -5,11 +5,11 @@ description: "From Dustri's « Defeating ioli with radare2 »"
 categories: [reverse engineering]
 comments: true
 image:
-  feature: https://raw.githubusercontent.com/t-leclercq/portfolio/main/content/assets/1.png?token=GHSAT0AAAAAABQQAU32ASGICYTZXD7XVMSUYSZOUPA
+  feature: https://raw.githubusercontent.com/t-leclercq/portfolio/main/content/assets/1.png
   credit: z4nzi
 ---
 
-![Second one...](https://raw.githubusercontent.com/t-leclercq/portfolio/main/content/assets/1.png?token=GHSAT0AAAAAABQQAU32ASGICYTZXD7XVMSUYSZOUPA)
+![Second one...](https://raw.githubusercontent.com/t-leclercq/portfolio/main/content/assets/1.png)
 
 ### A bit of recon...
 
