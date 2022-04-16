@@ -1,15 +1,15 @@
 ---
-title: "[Reverse Engineering] IOLI 0x09"
+title: "[Reverse Engineering] IOLI 0x08"
 date: "2022-04-17T00:30:00.000Z"
 description: "From Dustri's « Defeating ioli with radare2 »"
 categories: [reverse engineering]
 comments: true
 image:
-  feature: https://raw.githubusercontent.com/t-leclercq/portfolio/main/content/assets/0x09.png
+  feature: https://raw.githubusercontent.com/t-leclercq/portfolio/main/content/assets/0x08.png
   credit: z4nzi
 ---
 
-![final challenge](https://raw.githubusercontent.com/t-leclercq/portfolio/main/content/assets/0x09.png)
+![final challenge](https://raw.githubusercontent.com/t-leclercq/portfolio/main/content/assets/0x08.png)
 
 ### The final challenge
 
