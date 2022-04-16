@@ -1,6 +1,6 @@
 ---
 title: "[Reverse Engineering] IOLI 0x06"
-date: "2022-04-15T17:08:00.000Z"
+date: "2022-04-16T14:00:00.000Z"
 description: "From Dustri's « Defeating ioli with radare2 »"
 categories: [reverse engineering]
 comments: true
