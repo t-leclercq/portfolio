@@ -1,5 +1,5 @@
 ---
-title: "[Reverse Engineering] IOLI 0x09"
+title: "[Reverse Engineering] IOLI 0x08"
 date: "2022-04-16T23:56:00.000Z"
 description: "From Dustri's « Defeating ioli with radare2 »"
 categories: [reverse engineering]
@@ -9,7 +9,7 @@ image:
   credit: z4nzi
 ---
 
-### The final exercice
+### Again, and again : practice makes perfect
 
 After a few moments analysing, and testing the same response as `22222222`, i figured out that... there wasn't any differences between the 0x07 and 0x08 behaviours.
 
